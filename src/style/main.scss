@@ -1,0 +1,24 @@
+$mainColore: #e1f0f8;
+
+@import "partials/header";
+@import "partials/main-content";
+@import "partials/manual-content";
+@import "partials/reviews";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: Arial;
+    background-color: $mainColore;
+}
+
+.wrapper {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
